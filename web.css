@@ -1,0 +1,119 @@
+  p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: black;
+
+}
+video {
+   width: 100%;
+   height: 50%;
+  }
+
+  /* CSS code for video */
+
+  .video-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .video-container video {
+    width: 100%;
+  }
+
+  .play-pause-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .play-pause-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .below {
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+
+  }
+
+  .flex {
+   
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-item1 {  
+    flex: 2;
+    background-color: bisque;
+    box-sizing: border-box;
+    margin: 20px 20px auto;
+    position: relative;
+  text-align: left;
+  color: black;
+    
+  }
+
+  /* for text over an image*/
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: aliceblue;
+  }
+
+  .flex-item1:hover .image {
+    opacity: 0.8;
+  }
+
+ .flex-item2 {
+  flex: 1;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 20px 0px auto;
+  height: 100%;
+ }
+
+ .flex-item3 {  
+  flex: 2;
+  background-color: bisque;
+  box-sizing: border-box;
+  margin: 20px 20px auto;
+  height: 100%;
+
+  
+}
+
+.flex1 {
+   
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ 
+  
